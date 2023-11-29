@@ -5,4 +5,4 @@ for alph in range (97, 123):
         continue
     else:
         print("{:c}".format(alph), end="")
-        alph += 1
+    alph += 1
