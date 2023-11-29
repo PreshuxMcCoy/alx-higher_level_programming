@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-for alph in range (97, 123):
-    if alph == 101 or alph == 113:
-        alph += 1
-        continue
-    else:
-        print("{:c}".format(alph), end="")
-    alph += 1
+
+for char in range(ord('a'), ord('z') + 1):
+    if char != ord('e') and char != ord('q'):
+        print("{:c}".format(char), end="")
